@@ -1,0 +1,99 @@
+.App{
+  text-align: center;
+}
+
+.logo{
+  width: 30px;
+}
+
+img{
+  width: 50%;
+}
+
+.imgInfo{
+  width: 20%;
+}
+.imgteamInfo{
+  width: 100%;
+  text-align: center;
+}
+
+.content{
+  padding: 70px 0 60px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home{
+  padding: 70px 0 60px 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.homeInfo{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.contentLogo{
+  display: flex;
+  align-items: center;
+}
+.navBar{
+  background-color: #0251A1;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0; 
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  color: white;
+  align-items: center;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0251A1;
+  color: white;
+  text-align: center;
+  height: 35px;
+  font-size: 13px;
+}
+
+.infoCard{
+  width: 65vw;
+  text-align: left;
+  border: solid 2px #F3F6FB;
+  box-shadow: lightblue 2px 2px 2px 2px;
+  border-radius: 8px;
+  padding: 30px 20px;
+}
+
+.infoCardTeam{
+  width: 40vw;
+  text-align: left;
+  border: solid 2px #F3F6FB;
+  box-shadow: lightblue 2px 2px 2px 2px;
+  border-radius: 8px;
+  padding: 30px 40px;
+}
+
+ul{
+  text-align: left;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
